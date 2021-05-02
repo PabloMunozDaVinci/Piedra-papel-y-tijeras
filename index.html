@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Piedra ,Papel ,Tijeras !</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <section id="computer-zone"></section>
+
+      <img id="computer-choice" src="imgs/rock.png" alt="piedra" />
+
+      <p id="result">Comenzar a jugar</p>
+      <p id="result2"></p>
+      <p id="counter" data-counter="counter"> 0 - 0 </p>
+      
+      <section id="player-zone"></section>
+
+      <img id="player-choice" src="imgs/rock.png" alt="piedra" />
+
+      <section>
+        <button data-choice="rock">
+          <img src="imgs/rock.png" alt="piedra" />
+        </button>
+        <button data-choice="paper">
+          <img src="imgs/paper.png" alt="Papel" />
+        </button>
+        <button data-choice="scissors">
+          <img src="imgs/scissors.png" alt="tijeras" />
+        </button>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

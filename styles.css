@@ -1,0 +1,49 @@
+body{
+margin: 0%;
+width: 100vw;
+height: 100vh;
+
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border: 1px solid white;
+background-color: black;
+
+
+
+
+}
+
+
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid white;
+    padding:10px ;
+    box-shadow: 0 0 20px red;
+    background-color: black;
+
+}
+
+#result{
+
+color: white;
+font-size: 2rem;
+
+
+}
+
+
+#counter{
+    color: white;
+    font-size: 2rem;
+    }
